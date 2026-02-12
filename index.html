@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OZADA Labs</title>
+    <style>
+        :root {
+            /* Minimalist Dark Theme Palette */
+            --bg-color: #0a0a0a;
+            --text-color: #ffffff;
+            --accent-color: #404040;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: var(--bg-color);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-color);
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .logo {
+            max-width: 150px; /* Slightly smaller for a more refined look */
+            height: auto;
+            margin-bottom: 20px;
+            /* Optional: subtle glow if your logo is white/transparent */
+            filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.1));
+        }
+
+        h1 {
+            font-size: 0.85rem;
+            font-weight: 200;
+            letter-spacing: 0.7rem; /* Wider tracking for a 'luxury' feel */
+            text-transform: uppercase;
+            color: var(--text-color);
+            margin: 0;
+            opacity: 0.8;
+        }
+
+        .line {
+            width: 30px;
+            height: 1px;
+            background-color: var(--accent-color);
+            margin: 2.5rem auto;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="ozada_logo.png" alt="Logo" class="logo">
+        
+        <div class="line"></div>
+        
+        <h1>Coming Soon</h1>
+    </div>
+
+</body>
+</html>
